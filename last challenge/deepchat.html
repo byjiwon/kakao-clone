@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/dc6f37751e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./src/style.css" />
+    <title>Chatting | kokoa clone</title>
+  </head>
+  <body>
+    <div class="outline">
+      <div class="phone">
+        <div class="container__all">
+          <div class="status-bar">
+            <h6 class="clock">9:41</h6>
+            <div class="status-bar__column">
+              <i class="fas fa-bell"></i>
+              <i class="fas fa-volume-mute"></i>
+              <i class="fas fa-wifi"></i>
+              <i class="fas fa-ban"></i>
+              <span>100%</span>
+              <i class="fas fa-battery-full"></i>
+            </div>
+          </div>
+          <div class="title-bar">
+            <div class="title-bar__column settings">
+              <a href="friends.html" class="btn-back">
+                <i class="fas fa-arrow-left"></i>
+              </a>
+              <h4 class="title">Daye</h4>
+            </div>
+            <i class="fas fa-search"></i>
+          </div>
+          <div class="container__main-contents chat">
+            <ul class="d-chat__messages">
+              <span class="d-chat__timestamp">Thursday, November 14, 2019</span>
+              <li class="incoming-message message">
+                <img src="./src/3.jpeg" alt="" class="profile-img" />
+                <div class="message__content">
+                  <span class="message__buble">Hello, rion!</span>
+                  <span class="message__author">Da ye</span>
+                </div>
+                <span class="message__timestamp">15:00</span>
+              </li>
+              <li class="sent-message message">
+                <span class="message__timestamp">15:01</span>
+                <span class="message__buble">Hello, Daye!</span>
+              </li>
+            </ul>
+          </div>
+          <div class="chat__write">
+            <div class="chat__write-column">
+              <i class="far fa-plus-square"></i>
+            </div>
+            <div class="chat__write-column">
+              <input
+                type="text"
+                placeholder="Send message"
+                class="chat__write-input"
+              />
+            </div>
+            <div class="chat__write-column">
+              <span class="chat__write-icon">
+                <i class="far fa-smile-wink"></i>
+              </span>
+              <span class="chat__write-icon">
+                <i class="fas fa-microphone"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

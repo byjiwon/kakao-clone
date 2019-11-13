@@ -1,0 +1,164 @@
+@import "./reset.css";
+@import "./friends.css";
+@import "./more.css";
+@import "./find.css";
+@import "./settings.css";
+@import "./deepchat.css";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a:visited,
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:active,
+a.selected {
+  color: red;
+}
+
+.outline {
+  width: 400px;
+  height: 850px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 10px 10px #b7bec9, inset 0px 0px 10px 2px #b7bec9;
+  border-radius: 3em;
+}
+
+.phone {
+  position: relative;
+  background-color: whitesmoke;
+  width: 90%;
+  height: 95%;
+  border-radius: 3em;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.container__all {
+  position: absolute;
+  height: 100%;
+  width: 95%;
+}
+
+.status-bar {
+  margin: 15px 15px 30px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.chats-bar__column {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 30%;
+}
+
+.chats-bar__column i {
+  padding-left: 20px;
+}
+
+.title-bar h4 {
+  font-size: 30px;
+}
+
+ul {
+  max-height: 620px;
+  overflow-y: auto;
+}
+
+.chats-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80%;
+  padding: 15px 0;
+}
+
+li.chats-list:first-child {
+  padding-top: 0;
+}
+
+.chats-list__column {
+  height: 50px;
+}
+
+.chats-list__column:first-child {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 80%;
+}
+
+.chats-text__title {
+  padding-bottom: 5px;
+}
+
+.chats-text__title > span {
+  padding-left: 5px;
+  color: #b7bec9;
+}
+
+.chats-list__column:nth-child(2) {
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: end;
+}
+
+.profile-img {
+  border-radius: 50%;
+}
+
+.chats-text {
+  margin-left: 10px;
+}
+
+.chats-list__column:last-child span {
+  display: inline-block;
+  text-align: center;
+  padding-top: 5px;
+  color: white;
+  width: 20px;
+  height: 20px;
+  margin: 5px auto;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.nav-bar {
+  position: absolute;
+  bottom: 0%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  z-index: 1;
+}

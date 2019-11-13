@@ -1,0 +1,25 @@
+.more__function-btn {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+
+.more__function-btn .function-btn__column {
+  margin-right: 30px;
+  margin-top: 20px;
+}
+
+.more__suggestion h5 {
+  margin-top: 45px;
+  opacity: 0.8;
+}
+
+.more__suggestion i {
+  padding: 10px;
+  background-color: #fce006;
+  color: white;
+}
+
+.function-btn__column .function-btn__name {
+  margin-top: 10px;
+}

@@ -1,0 +1,58 @@
+.friends__list {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.user-profile {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.user-img {
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.chats-text h5 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.chats-text h6 {
+  font-size: 15px;
+  color: gray;
+}
+
+.list__title {
+  margin-top: 10px;
+  padding: 10px 0;
+  border-top: 1px solid #b7bec9;
+}
+
+.plus-friend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.plus-friend-numb {
+  padding-right: 5px;
+  font-size: 18px;
+}
+
+li.friend-list {
+  padding: 15px 0;
+}
+
+.user-profile__column i {
+  color: #b7bec9;
+  font-size: 18px;
+}
+
+.user-profile__column,
+.friend-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
